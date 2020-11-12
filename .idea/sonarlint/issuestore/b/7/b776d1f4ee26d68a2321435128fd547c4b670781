@@ -1,0 +1,24 @@
+
+i	java:S116%"URename this field "_multipart" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«¯–`
+j	java:S116"PRename this field "_user" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÍÌ—ûÿÿÿÿ
+g	java:S117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş‰äÍ
+e	java:S116"QRename this field "_sport" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿç‰
+p	java:S116#"VRename this field "_debuggable" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¹íÆúÿÿÿÿ
+^
+java:S3252]"CUse static access with "javax.mail.Message$RecipientType" for "TO".(ÜŸõ”ùÿÿÿÿ
+h	java:S116"NRename this field "_to" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾®”şÿÿÿÿ
+e
+java:S1192("ODefine a constant instead of duplicating this literal "smtp.gmail.com" 3 times.(¾¡Î‡
+e	java:S116"PRename this field "_from" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãçâï
+m	java:S116"SRename this field "_subject" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÁµÏÿÿÿÿÿ
+e	java:S116"PRename this field "_body" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š½÷ó
+d	java:S116"PRename this field "_port" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üë×|
+e	java:S116!"PRename this field "_auth" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãœ›Š
+d	java:S100€"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ÇÍé
+?
+java:S1068"*Remove this unused "_sport" private field.(Ÿç‰
+j	java:S116"PRename this field "_host" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿšçüÿÿÿÿ
+[	java:S112I"FDefine and throw a dedicated exception instead of using a generic one.(ßİ¹ 
+e	java:S116"PRename this field "_pass" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù‰
+P
+java:S1161P":Add the "@Override" annotation above this method signature(‡èú×

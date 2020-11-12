@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".OrderFood">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/order_your_food"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    <LinearLayout
+        android:layout_width="300dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+
+        <CheckBox
+            android:id="@+id/chickenBriyani"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="@string/chicken_briyani_rs_100"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        <CheckBox
+            android:id="@+id/vegBriyani"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="@string/veg_briyani_rs_80"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        <CheckBox
+            android:id="@+id/eggNoodles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="@string/egg_noodles_rs_60"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        <CheckBox
+            android:id="@+id/vegNoodles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="@string/veg_noodles_rs_50"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        <CheckBox
+            android:id="@+id/friedRice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="@string/fried_rice_rs_110"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        <CheckBox
+            android:id="@+id/burger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="@string/burger_rs_100"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+    </LinearLayout>
+    <Button
+        android:layout_margin="20dp"
+        android:onClick="onOrder"
+        android:layout_width="wrap_content"
+        android:id="@+id/buttonPlaceOrder"
+        android:layout_height="wrap_content"
+        android:text="@string/place_order"/>
+
+
+</LinearLayout>
